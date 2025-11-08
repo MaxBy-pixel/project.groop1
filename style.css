@@ -1,5 +1,23 @@
-.first-section {
-    margin: 0;
-    padding: 0;
+.position {
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+ margin: 10px 80px;
+}
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 15px 80px;
+    list-style: none;
+}
+.header-home {
+    color: #CDA274;
+}
+main {
     background-image: url(./images/decoration/room.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    justify-content: center;
 }
