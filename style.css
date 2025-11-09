@@ -136,9 +136,24 @@
     justify-content: right;
   }
   .container {
-    background-color: #cda274;
+    background-color: #F4F0EC;
     width: 1400px;
     height: 500px;
     margin: 100px 235px;
     border-radius: 50px;
+  }
+  .info-gyus {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    padding: 25px;
+    max-width: 320px;
+  }
+  .kkk {
+    display: inline;
+    flex-wrap: wrap;
+  }
+  .kokosik {
+    display: flex;
+    flex-wrap: wrap ;
   }
