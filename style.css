@@ -120,4 +120,25 @@
       font-size: 16px;
     }
   }
-  
+  .people-reviews {
+    display: flex;
+    justify-content: center;
+  }
+  .employee {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 15px 150px;
+    list-style: none;
+  }
+  .info-employee {
+    display: flex;
+    justify-content: right;
+  }
+  .container {
+    background-color: #cda274;
+    width: 1400px;
+    height: 500px;
+    margin: 100px 235px;
+    border-radius: 50px;
+  }
