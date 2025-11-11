@@ -422,3 +422,11 @@ main {
   gap: 90px;
   margin: 1px 450px;
 }
+.footer-button {
+  background-color:#292F36 ;
+  border-radius: 35px;
+  height: 300px;
+  margin: 1px 150px;
+  display: flex;
+  justify-content: center;
+}
