@@ -423,7 +423,7 @@ main {
   margin: 1px 450px;
 }
 .footer-button {
-    width: 1200px;
+  width: 1200px;
   height: 414px;
   background-color: #2c333b;
   border-radius: 60px;
@@ -433,16 +433,44 @@ main {
   align-items: center;
   text-align: center;
 }
-.footer-button {
-   font-size: 36px;
+
+.footer-name {
+  font-size: 36px;
   font-weight: 700;
+  color: #fff;
   margin-bottom: 10px;
 }
-.footer-button {
+
+.footer-contact {
   font-size: 18px;
   color: #dcdcdc;
   margin-bottom: 30px;
 }
-.botton-footer {
-  color: #CDA274;
+
+/* --- виправлена кнопка --- */
+.footer-cta-btn {
+  background-color: #cda274;
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center; /* головне — вирівнює текст і svg по центру */
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  line-height: 1; /* прибирає зайвий простір */
+}
+
+.footer-cta-btn svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.footer-cta-btn:hover {
+  background-color: #b68a5b;
 }
