@@ -474,3 +474,7 @@ main {
 .footer-cta-btn:hover {
   background-color: #b68a5b;
 }
+.center {
+  display: flex;
+  justify-content: center;
+}
