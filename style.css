@@ -601,7 +601,7 @@ main {
   flex-wrap: wrap;
   gap: 40px;
 }
-.footer-col about {
+.footer-col-about {
   font-family: Jost, sans-serif;
   font-weight: 700;
 }
