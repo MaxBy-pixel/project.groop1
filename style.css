@@ -760,3 +760,8 @@ main {
   margin-left: 1100px;
 }
 
+.footer-column ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;  
+}
