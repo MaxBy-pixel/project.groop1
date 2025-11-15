@@ -496,7 +496,6 @@ main {
   margin-bottom: 30px;
 }
 
-/* --- виправлена кнопка --- */
 .footer-cta-btn {
   background-color: #cda274;
   color: #fff;
@@ -507,13 +506,11 @@ main {
   font-weight: 500;
   display: inline-flex;
   align-items: center;
-  /* головне — вирівнює текст і svg по центру */
   justify-content: center;
   gap: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   line-height: 1;
-  /* прибирає зайвий простір */
 }
 .footer-cta-btn span {
   font-family: Jost, sans-serif;
@@ -544,16 +541,13 @@ main {
 }
 .card-set {
   display: flex;
-  /* Make a flex container multiline */
   flex-wrap: wrap;
-  /* Set gap between rows and columns */
   gap: 10px;
   padding: 0;
   list-style: none;
 }
 
 .info-main {
-  /*  Set the width of the elements  */
   flex-basis: calc((100% - 20px) / 3);
   padding: 10px;
   background-color: #fff;
