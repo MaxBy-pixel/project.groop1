@@ -18,6 +18,7 @@
 
 .header-home {
   color: #cda274;
+  text-decoration: none;
 }
 
 .hero-section {
@@ -383,16 +384,6 @@ main {
 .img-phone-section-3 {
   padding-left: 90px;
 }
-
-.phone-section-3 {
-  font-family: Jost, sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  color: #4D5053;
-  margin-bottom: 50px;
-  padding-left: 100px;
-}
-
 .button-section-3 {
   font-family: Jost, sans-serif;
   font-weight: 300;
@@ -667,6 +658,7 @@ main {
   max-width: 1000px;
   margin: auto;
   padding: 20px 0;
+  justify-content: center;
 }
 .mainer h3 {
   font-family: "DM Serif Display", serif;
@@ -677,6 +669,7 @@ main {
     font-family: Jost, sans-serif;
     font-weight: 400;
     color: #4D5053;
+    
 }
 .logo-int {
   display: flex;
@@ -685,4 +678,81 @@ main {
 .yellow-brown {
   color: #CDA274;
   text-decoration: none;
+}
+.header-nav {
+  color: #292F36;
+  text-decoration: none;
+}
+.info-more {
+  text-decoration: none;
+  color: #292F36;
+}
+.style-home {
+  text-decoration: none;
+  color: #292F36;
+}
+.bg-arrow {
+  background-color: #F4F0EC;
+  border-radius: 50%;
+  width: 15px;
+}
+.phone-section-3 {
+  font-family: Jost, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #4D5053;
+  margin-bottom: 50px;
+  padding-left: 30px;
+  margin: 10px 1px;
+
+}
+.contact-box-section-3 {
+  display: flex;
+  align-items: center;
+}
+.button-section {
+  margin-left: 90px;
+  margin-top: 25px;
+}
+.button-text-section-3 {
+  background-color: #cda274;
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  line-height: 1;
+}
+.novebmer-decoretion {
+  text-decoration: none;
+  color: #292F36;
+}
+.decoration {
+  font-size: 24px;
+  text-decoration: none;
+  color: #292F36;
+  font-weight: bold;
+}
+.november-it {
+  margin-top: 25px;
+}
+..footer-column a {
+  font-family: Jost, sans-serif;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 10px;
+  color: #4D5053;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+.footer-column a:hover {
+  color: #CDA274;
 }
