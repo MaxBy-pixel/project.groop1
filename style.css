@@ -167,39 +167,8 @@ main {
   max-width: 320px;
 }
 
-.position {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin: 10px 80px;
-}
-
-.header-menu {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  margin: 15px 80px;
-  list-style: none;
-}
-
 .header-home {
   color: #cda274;
-}
-
-.hero-section {
-  position: relative;
-  width: 100%;
-  height: 90vh;
-  background-image: url("./images/decoration/room.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-bottom-left-radius: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 120px;
-  font-family: "Jost", sans-serif;
 }
 
 .hero-content {
