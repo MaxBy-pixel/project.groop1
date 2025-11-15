@@ -400,7 +400,7 @@ main {
 
 .img-modern-kitchen-section-3 {
   margin-top: -620px;
-  margin-left: 1200px;
+  margin-left: 900px;
 }
 
 .section-7 {
@@ -743,7 +743,7 @@ main {
 .november-it {
   margin-top: 25px;
 }
-..footer-column a {
+.footer-column a {
   font-family: Jost, sans-serif;
   font-weight: 400;
   display: block;
@@ -756,3 +756,4 @@ main {
 .footer-column a:hover {
   color: #CDA274;
 }
+
